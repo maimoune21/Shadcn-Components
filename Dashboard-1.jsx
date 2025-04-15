@@ -445,7 +445,7 @@ function AppSidebar(props) {
 }
 
 // Main Dashboard Page Component
-export default function Dashboard() {
+export const Dashboard=()=>{
   return (
     <SidebarProvider>
       <AppSidebar />
